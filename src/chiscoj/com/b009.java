@@ -16,6 +16,7 @@ public class b009 {
                 System.out.println("Off School");
             } else {
                 System.out.println("At School");
+
             }
         }
     }
