@@ -2,7 +2,7 @@ package chiscoj.com;
 
 import java.util.Scanner;
 
-public class a011 {
+public class b011 {
     public static void main(String[] args) {
         int num ;
         boolean find ;
