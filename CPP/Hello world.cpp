@@ -1,5 +1,10 @@
-#include <iostream>
-
-int main(){
-    printf("Hello world\n" );
+#include<bits/stdc++.h>
+using  namespace std;
+int main()
+{  
+    printf("H\n");
+    
+    system("pause");
+    return 0;   
+  
 }
