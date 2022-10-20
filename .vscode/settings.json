@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "editor.fontFamily": "Jetbrains mono",
+    "terminal.integrated.fontFamily": "Fira Code",
+}
