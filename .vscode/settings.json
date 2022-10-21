@@ -4,4 +4,5 @@
     },
     "editor.fontFamily": "Jetbrains mono",
     "terminal.integrated.fontFamily": "Fira Code",
+    "C_Cpp.clang_format_style": "{BasedOnStyle: Chromium, IndentWidth: 4}",
 }
