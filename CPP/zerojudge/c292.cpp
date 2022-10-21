@@ -10,8 +10,14 @@ int ans() {
             cin >> input[i][j];
         }
     }
-    cout << ' ';
 }
+
+/*
+    0 -> [i--][j] LEFT
+    1 -> [i][j--] UP
+    2 -> [i++][j] RIGHT
+    3 -> [j][j++] DOWN
+*/
 
 int main() {
     cout << ans() << '\n';
