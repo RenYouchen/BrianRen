@@ -3,13 +3,32 @@ using namespace std;
 
 int ans() {
     int input[50][50];
-    int n, path;
+    int n, path, count;
+    int ans;
     cin >> n >> path;
+    count = 0;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             cin >> input[i][j];
         }
     }
+
+    while (count != n * n - 1) {
+        switch (path%3)
+        {
+        case 1:
+            /* code */
+            break;
+        case 2:
+            break;
+        case 3:
+            break;
+        default:
+            break;
+        }
+    }
+
+    return ans;
 }
 
 /*
