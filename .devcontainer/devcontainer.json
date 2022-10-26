@@ -38,8 +38,7 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"ms-python.python",
-				"ms-python.vscode-pylance",
-				"ms-vscode-remote.vscode-remote-extensionpack"
+				"ms-python.vscode-pylance"
 			]
 		}
 	},
