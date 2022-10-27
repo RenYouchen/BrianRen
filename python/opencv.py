@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture("rtsp://192.168.100.10:8554/")
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("Cannot open camera")
@@ -10,8 +10,12 @@ while True:
     if not ret:
         print("Cannot receive frame")
         break
-    cv2.imshow('owo', frame)
-    if cv2.waitKey(1) == ord('q'):
+    keyName = cv2.waitKey(1)
+    if keyName == ord('q'):
         break
+    if keyName == ord('a'):
+        area = cv2.selectROI('uwu', frame, False, False)
+        print(area)
+    cv2.imshow('owo', frame)
 cap.release()
 cv2.destroyAllWindows()
