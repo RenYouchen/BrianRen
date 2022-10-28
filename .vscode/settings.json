@@ -5,4 +5,5 @@
     "editor.fontFamily": "Jetbrains mono",
     "terminal.integrated.fontFamily": "monospace",
     "C_Cpp.clang_format_style": "{BasedOnStyle: Chromium, IndentWidth: 4}",
+    "C_Cpp.errorSquiggles": "Disabled",
 }
